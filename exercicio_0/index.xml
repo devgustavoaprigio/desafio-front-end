@@ -1,0 +1,17 @@
+<clientes>
+    <cliente>
+        <nome>Gustavo Aprigio</nome>
+        <telefone>+55 16 99999-9999</telefone>
+        <email>gustavo@example.com</email>
+    </cliente>
+    <cliente>
+        <nome>Larissa Vieira</nome>
+        <telefone>+55 16 98888-8888</telefone>
+        <email>larissa@example.com</email>
+    </cliente>
+    <cliente>
+        <nome>Fabio Santos</nome>
+        <telefone>+55 16 98888-8888</telefone>
+        <email>fabiosantos@example.com</email>
+    </cliente>
+</clientes>
