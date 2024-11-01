@@ -3,63 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Exercício 1 do desafio do front-end</title>
-    
+    <link rel="icon" href="logo.webp" type="image/png">
+    <title>Wireframe do Site</title>
 </head>
 <body>
+    <!-- Cabeçalho com logo e menu -->
     <header>
-        <h1>Bem-vindo(a) ao meu site</h1>
+        <div class="logo">
+            <!-- Logo do site -->
+            <img src="logo.ico" alt="Logo do site de uma hamburgueria" width="50px">
+            
+        </div>
         <nav>
+            <h1>Delicious Burguer</h1>
             <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+                <li><a href="#">Menu Item 3</a></li>
+                <li><a href="#">Menu Item 1</a></li>
+                <li><a href="#">Menu Item 2</a></li>
+            </ul>          
         </nav>
     </header>
+    <!-- Imagem do destaque -->
+    <section class="destaque">
+        <img src="banner.webp" alt="Imagem de destaque com hambúrguer e batatas" title="Imagem de destaque com hambúrguer e batatas">
+    </section>
 
-    <main>
-        <section id="home">
-            <h2>Seção Início</h2>
-            <p>Conteúdo da seção de introdução.</p>
-        </section>
-        
-        <section id="sobre">
-            <h2>Seção Sobre</h2>
-            <p>Informações sobre o site ou a empresa.</p>
-        </section>
+    <!-- Galeria de produtos -->
+    <section class="galeria">
+        <div class="produto">
+            <img src="item.webp" alt="Imagem do produto 1">
+        </div>
+        <div class="produto">
+            <img src="item.webp" alt="Imagem do produto 2">
+        </div>
+        <div class="produto">
+            <img src="item.webp" alt="Imagem do produto 3">
+        </div>
+        <div class="produto">
+            <img src="item.webp" alt="Imagem do produto 4">
+        </div>
+    </section>
 
-        <section id="contato">
-            <h2>Seção Contato</h2>
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
+    <!-- Seção sobre o site -->
+    <section class="sobre">
+        <h2>Sobre o site</h2>
+    </section>
 
-    <main>
-        <section>
-            <aside>
-                <h3>Informações Básicas</h3>
-                <p><strong>Endereço:</strong> Rua Exemplo, 123, Cidade, Estado</p>
-                <p><strong>Telefone:</strong> (11) 1234-5678</p>
-                <p><strong>Email:</strong> contato@meusite.com</p>
-                <p><strong>Horário de Atendimento:</strong> Segunda a Sexta, das 9h às 18h</p>
-            </aside>
-        </section>
-    </main>
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Gustavo - Front-End</p>
     </footer>
 
 </body>
