@@ -5,6 +5,51 @@
     box-sizing: border-box;
 }
 
+#estudo {
+    margin: 10px;
+}
+
+
+#estudo div{
+    display: inline-block;
+    border: 1px solid #000;
+    width: 100px;
+    height: 40px;
+    text-align: center ;
+}
+
+#estudo table{
+    width: 100px;
+}
+#estudo table td {
+    display: inline-block;
+    border: 1px solid #000;
+    width: 100px;
+    height: 40px;
+    text-align: center ;
+}
+
+#estudo #estrutura-flexbox #header{
+    display: flex;
+    flex-direction: row;
+}
+
+#estudo #estrutura-flexbox #header div{
+    border: 1px solid #000;
+    width: 33%;
+    text-align: center ;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -15,31 +60,17 @@ body {
 /* Estilização do cabeçalho */
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    justify-content: space-between;
     background-color: #333;
+    padding: 20px;
     color: #fff;
 }
 
-/* Estilo para o título centralizado */
-header h1 {
-    flex: 1;
+.h1 {
+    flex-grow: 1;
     text-align: center;
     margin: 0;
-}
-
-/* Estilo para o menu */
-header nav ul {
-    display: flex;
-    list-style: none;
-    gap: 15px;
-    margin: 0;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 
@@ -48,21 +79,17 @@ header nav ul li a {
     height: auto;
 }
 
-nav h1 {
-    text-align: center;
-    display: inline-block;
-}
+
 
 nav ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
     gap: 15px;
 
 }
-nav h1 {
-    margin-left: 50px;
+
+nav {
+    text-decoration: center;
 }
 
 nav ul li a {
